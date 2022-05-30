@@ -1,0 +1,393 @@
+1652455997303	geckodriver	INFO	Listening on 127.0.0.1:61089
+1652456000344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61090" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileaYpm17"
+1652456001711	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofileaYpm17\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61090/devtools/browser/3313fdd2-564e-43d0-97fe-bdd036cc7ffc
+1652456006492	Marionette	INFO	Listening on port 61123
+Read port: 61123
+1652456006580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652456046715	geckodriver	INFO	Listening on 127.0.0.1:61196
+1652456049925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileNYHLa8"
+1652456051183	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofileNYHLa8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61197/devtools/browser/232c8f06-5632-4654-bbdf-1cf5c717f0a5
+1652456056621	Marionette	INFO	Listening on port 61234
+Read port: 61234
+1652456056778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652456090249	geckodriver	INFO	Listening on 127.0.0.1:61304
+1652456093546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileQupzfk"
+1652456094655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofileQupzfk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61305/devtools/browser/88ae9d4a-f1db-43c3-a682-a0a7a9c16d25
+1652456099440	Marionette	INFO	Listening on port 61339
+Read port: 61339
+1652456099500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652456495992	Marionette	INFO	Stopped listening on port 61339
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=275309cb700","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3584,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://global/content/elements/browser-custom-element.js:get loadContext:386","chrome://global/content/elements/browser-custom-element.js:construct:984","chrome://global/content/elements/browser-custom-element.js:connectedCallback:324","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:417","chrome://browser/content/tabbrowser.js:init:50","chrome://browser/content/browser.js:onDOMContentLoaded:1708"]}] Barrier: profile-before-change
+initialized'.
+[2022-05-13T15:36:42Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:36:42Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:36:42Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:36:42Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0dadf0020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+[2022-05-13T15:38:47Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:38:47Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:38:47Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:38:47Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0dacdf670 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[2022-05-13T15:39:20Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:39:20Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:39:20Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:39:20Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0db2c0ce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967325/layout25, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+[2022-05-13T15:40:07Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:40:07Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:40:07Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:40:07Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0e8ec0ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0df9ae450 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0df9ae450 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[2022-05-13T15:41:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:41:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:41:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:41:55Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0e260a780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3400: TypeError: data.frameData.id is null
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d888e680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d888e680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d888e680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d888e680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d3231ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d3231ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d3231ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[2022-05-13T15:43:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:43:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:43:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:43:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28972, MediaDecoderStateMachine #1] WARNING: 1b0d88af570 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+1652456611046	geckodriver	INFO	Listening on 127.0.0.1:62029
+1652456614101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62030" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile04sron"
+1652456615540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofile04sron\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62030/devtools/browser/1169dc6a-6b5b-4d99-901d-8d0c2f1bcff7
+1652456620842	Marionette	INFO	Listening on port 62065
+Read port: 62065
+1652456620954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652456645171	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-13T15:44:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:44:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:44:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:44:05Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2a08f020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2d825570 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2d825570 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2aa0cbd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2aa0cbd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2aa0cce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea34f09df0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea34f09df0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea35b8cab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea35b8cab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2aa0def0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2aa0def0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2a090780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 8168, MediaDecoderStateMachine #1] WARNING: 1ea2a090780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+ in "\u{0}\u{0}"
+[2022-05-13T15:46:40Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:46:40Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1fd646bd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f5454ce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f758f240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f758f240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f7590bc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f7590bc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1fac60350 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f41d81652457154824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62888" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileQUEVYR"
+1652457156259	M[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f75909a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 26152, MediaDecoderStateMachine #1] WARNING: 1f1f75909a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+1652457161206	Marionette	INFO	Listening on port 62928
+Read port: 62928
+1652457161312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[2022-05-13T15:52:54Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1652457174456	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-13T15:52:54Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:52:54Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:52:54Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 23256, MediaDecoderStateMachine #1] WARNING: 26510215350 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 23256, MediaDecoderStateMachine #1] WARNING: 2651810bf00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 23256, MediaDecoderStateMachine #1] WARNING: 2651810bf00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+1652457288605	geckodriver	INFO	Listening on 127.0.0.1:63129
+1652457291908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63130" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilehvYf4O"
+1652457292801	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofilehvYf4O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63130/devtools/browser/dfa4b1e9-cef7-4e3f-b6f9-efaafb94bed9
+1652457297740	Marionette	INFO	Listening on port 63173
+Read port: 63173
+1652457297915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652457309996	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-13T15:55:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:55:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:55:10Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:55:13Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1652457356927	geckodriver	INFO	Listening on 127.0.0.1:63306
+1652457360172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileCdqwf0"
+1652457361183	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofileCdqwf0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63307/devtools/browser/7d7e6c13-730d-4f0b-9c70-48009b173471
+1652457367453	Marionette	INFO	Listening on port 63343
+Read port: 63343
+1652457367615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652457374018	geckodriver	INFO	Listening on 127.0.0.1:63355
+1652457377671	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63356" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilea4Gbn2"
+1652457378572	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofilea4Gbn2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63356/devtools/browser/c11fc3cb-b492-47c5-a908-6e259ae1182f
+1652457383013	Marionette	INFO	Listening on port 63397
+Read port: 63397
+1652457383095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652457395122	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-05-13T15:56:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:56:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:56:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-05-13T15:56:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4d565010 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66cbd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66cbd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66c460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66c460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fa120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fa120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f93780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f93780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66c9b0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4b66c9b0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48338120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48338120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4880b8a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4880b8a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee3f2319a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee3f2319a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488f9680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488f9680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488f9460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488f9460 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f63020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f63020 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4d565780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4d565780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36130 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36130 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf37ab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fade0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fade0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee3f230f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee474948a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee474948a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36ce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36ce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee502face0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f64340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f64340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92680 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee47495ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee47495ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f64de0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f64de0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f638a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f638a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f93780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f93780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fabc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee488fabc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf37450 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf37450 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36790 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee4bf36790 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92130 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92130 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92df0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f92240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #1] WARNING: 1ee48f64780 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+[Child 28316, MediaDecoderStateMachine #29] WARNING: 1ee4bf37230 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofilea4Gbn2\thumbnails) because it does not exist
+rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\WINDOWS\TEMP\rust_mozprofile6KIz6n\thumbnails) because it does not exist
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1630: Error: permitUnload is already running for this tab.
+1652603478708	Marionette	INFO	Stopped listening on port 60097
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 19152, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

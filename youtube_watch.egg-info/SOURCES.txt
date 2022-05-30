@@ -1,0 +1,6 @@
+main.py
+setup.py
+youtube_watch.egg-info/PKG-INFO
+youtube_watch.egg-info/SOURCES.txt
+youtube_watch.egg-info/dependency_links.txt
+youtube_watch.egg-info/top_level.txt
